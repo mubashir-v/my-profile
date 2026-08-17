@@ -82,12 +82,12 @@ const skills: Skill[] = [
 
 export function DigitalWorld() {
   return (
-    <section className="section digital-section" id="digital">
+    <section className="section digital-section" id="tech">
       <div className="wrap">
         <Reveal>
           <div className="section-head">
-            <p className="eyebrow">01 — Digital / IT</p>
-            <h2>My digital world</h2>
+            <p className="eyebrow">01 — Tech / IT</p>
+            <h2>My tech world</h2>
             <p>
               Technology is my profession. Data Engineering is where I go deep.
               Everything else is how I stay broad enough to solve real problems
@@ -97,7 +97,7 @@ export function DigitalWorld() {
         </Reveal>
 
         <Reveal delay={0.08}>
-          <ul className="world-rail" aria-label="Digital world path">
+          <ul className="world-rail" aria-label="Tech world path">
             {digitalRail.map((item) => (
               <li key={item}>{item}</li>
             ))}

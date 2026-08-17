@@ -47,8 +47,8 @@ export function Hero() {
             <em>Curiosity is my operating system.</em>
           </p>
           <div className="hero-actions">
-            <a className="btn-primary" href="#digital">
-              Enter the digital world
+            <a className="btn-primary" href="#tech">
+              Enter the tech world
             </a>
             <a className="btn-ghost" href="#real">
               Explore the real world
@@ -77,7 +77,7 @@ export function Hero() {
               />
             </figure>
             <p className="portrait-caption">
-              <span>Digital</span>
+              <span>Tech</span>
               <span className="portrait-caption-sep" aria-hidden="true" />
               <span>Real world</span>
             </p>
