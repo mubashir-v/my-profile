@@ -78,10 +78,10 @@ const scenes: Scene[] = [
   {
     icon: Car,
     label: "Driving",
-    headline: "Triumph bike. 1992 Jeep DI 4×4.",
+    headline: "I love travelling and driving.",
     story:
-      "I love travelling and driving — including off-road, recovering stuck vehicles, and reading terrain carefully.",
-    tools: ["Triumph", "Jeep DI 4×4", "Off-road recovery", "Long drives"],
+      "On-road adventures, off-road trails, recovering stuck vehicles, and reading terrain carefully — with my Triumph and 1992 Jeep DI 4×4.",
+    tools: ["Triumph", "Jeep DI 4×4 (1992)", "Off-road recovery", "Long drives"],
     accent: "drive",
   },
 ];
