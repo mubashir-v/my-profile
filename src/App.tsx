@@ -5,6 +5,7 @@ import { DigitalWorld } from "./components/DigitalWorld";
 import { Experience } from "./components/Experience";
 import { Manifesto } from "./components/Manifesto";
 import { RealWorld } from "./components/RealWorld";
+import { Family } from "./components/Family";
 import { CommonThread } from "./components/CommonThread";
 import { Teaching } from "./components/Teaching";
 import { Defines } from "./components/Defines";
@@ -21,6 +22,7 @@ export default function App() {
         <Experience />
         <Manifesto />
         <RealWorld />
+        <Family />
         <CommonThread />
         <Teaching />
         <Defines />

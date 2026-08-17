@@ -4,6 +4,7 @@ const links = [
   { href: "#tech", label: "Tech World" },
   { href: "#experience", label: "Experience" },
   { href: "#real", label: "Real World" },
+  { href: "#family", label: "Family" },
   { href: "#thread", label: "The Thread" },
   { href: "#connect", label: "Connect" },
 ];
@@ -27,11 +28,13 @@ export function Nav() {
       </a>
 
       <nav className="nav-worlds" aria-label="Worlds">
-        {links.slice(0, 4).map((link) => (
-          <a key={link.href} href={link.href}>
-            {link.label}
-          </a>
-        ))}
+        {links
+          .filter((link) => link.href !== "#connect")
+          .map((link) => (
+            <a key={link.href} href={link.href}>
+              {link.label}
+            </a>
+          ))}
       </nav>
 
       <a className="nav-cta nav-cta--desktop" href="#connect">
